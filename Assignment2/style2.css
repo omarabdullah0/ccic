@@ -1,0 +1,86 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+.myimg {
+    position: absolute;
+    top: 10px;
+    right: 11px;
+}
+
+.me p {
+    color: brown;
+    font-weight: bold;
+}
+
+.me ul li {
+    list-style: decimal;
+}
+
+.me p span {
+    display: inline-block;
+}
+
+.parag {
+    color: rgb(15, 3, 3);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    width: 700px;
+}
+
+.list {
+    margin-bottom: 100px;
+}
+
+.list li {
+    color: black;
+}
+
+footer {
+    background-color: rgb(72, 74, 79);
+    height: 150px;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-left: 400px;
+}
+
+footer div {
+    text-align: center;
+}
+
+.copy {
+    color: brown;
+    font-weight: bold;
+    padding-left: 550px;
+}
+
+.bo {
+    background-color: brown;
+    width: 60px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.bo img {
+    padding: 7px;
+}
+
+.home p {
+    text-align: center;
+}
+
+.me p span {
+    display: inline-block;
+    color: black;
+}
