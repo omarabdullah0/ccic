@@ -1,0 +1,107 @@
+body {
+    background-image: url(image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 600px;
+}
+
+.girl img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    right: 536px;
+    bottom: 397px;
+
+}
+
+.girlh {
+    background-color: rgb(250, 240, 240);
+    width: 450px;
+    height: 369px;
+    position: absolute;
+    right: 536px;
+    bottom: 27px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.girlh .one {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.girlh .two {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(91, 88, 88);
+
+}
+
+.music {
+    width: 304px;
+    height: 73px;
+    background-color: #9e9e9e59;
+    position: absolute;
+    right: 612px;
+    top: 502px;
+    border-radius: 10px;
+}
+
+.music .Annual {
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.music .year {
+    text-align: center;
+    color: dimgrey;
+    margin: -10px;
+}
+
+.music img {
+    position: absolute;
+    right: 245px;
+    top: 15px;
+}
+
+.music .button {
+    position: absolute;
+    right: 11px;
+    top: 30px;
+    border: none;
+    background-color: transparent;
+    color: blueviolet;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.payment {
+    background-color: blueviolet;
+    width: 321px;
+    height: 50px;
+    position: absolute;
+    right: 607px;
+    top: 587px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.payment p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.cancle {
+    position: absolute;
+    right: 732px;
+    top: 630px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
