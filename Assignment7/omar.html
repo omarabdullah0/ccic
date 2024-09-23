@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cookie Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 style="background-color: black; color: brown; width: 300px; padding: 10px; border-radius: 4px;">Cookie
+        Management </h1>
+    <button onclick="setCookie('username', 'omar', 7)"> Create a Cookie </button>
+    <button onclick="displayCookieValue()"> Read a Cookie </button>
+    <button onclick="updateCookie('username', 'omar', 10)"> Update a Cookie </button>
+    <button onclick="deleteCookie('username'); displayCookieValue()"> Delete a Cookie </button>
+
+    <h2 class="kema">قيمة الكوكي:  </h2>
+    <p  id="cookieValue">لا يوجد كوكي</p>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
