@@ -1,4 +1,4 @@
- // 1
+ // 1  Create a Cookie 
 
  function setCookie(name, value, days) {
 
@@ -14,7 +14,7 @@
   setCookie("username", "omar", 7);
   
   
-  // 2  دالة لقراءة الكوكي
+  // 2  Read a Cookie
   
     function getCookie(name) {
   
@@ -37,7 +37,7 @@ let username = getCookie("username");
 
 
 
-  // 3  دالة لتحديث الكوكي      
+  // 3  Update a Cookie: 
 
     function updateCookie(name, newValue, newDays) {
   
@@ -46,7 +46,7 @@ let username = getCookie("username");
 
     updateCookie("username", "omar", 10); 
 
-  // 4   دالة لحذف الكوكي
+  // 4  Delete a Cookie
 
     function deleteCookie(name) {
     document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';
@@ -57,4 +57,4 @@ let username = getCookie("username");
     function displayCookieValue() {
         const cookieValue = getCookie("username");
         document.getElementById("cookieValue").innerText = cookieValue ? cookieValue : "";
-    }
+    
